@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/imgs/logo-sm (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/CSS/all.min.css">
+    <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/imgs/wraper (1).png" alt="wraper-img" title="wraper-img" loading="lazy">
+    </header>
+    <nav class="navbar navbar-expand-lg col-md-6 col-lg-9 rounded-2 position-sticky">
+        <div class="container">
+            <a class="navbar-brand caveat-text text-white" href="index.html"><img class="me-2" src="assets/imgs/logo-sm (1).png"
+                    alt="game-review">GAME REVIEWS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-tabs ms-auto border-0" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-category="mmorpg" id="mmorpg-tab" data-bs-toggle="tab" data-bs-target="#mmorpg-tab-pane" type="button"
+                            role="tab" aria-controls="mmorpg-tab-pane" aria-selected="true">MMORPG</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="shooter" id="shooter-tab" data-bs-toggle="tab" data-bs-target="#shooter-tab-pane" type="button"
+                            role="tab" aria-controls="shooter-tab-pane" aria-selected="false">SHOOTER</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="sailing" id="sailing-tab" data-bs-toggle="tab" data-bs-target="#sailing-tab-pane" type="button"
+                            role="tab" aria-controls="sailing-tab-pane" aria-selected="false">SAILING</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="permadeath" id="permadeath-tab" data-bs-toggle="tab" data-bs-target="#permadeath-tab-pane" type="button"
+                            role="tab" aria-controls="permadeath-tab-pane" aria-selected="false">PERMADEATH</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="superhero" id="superhero-tab" data-bs-toggle="tab" data-bs-target="#superhero-tab-pane" type="button"
+                            role="tab" aria-controls="superhero-tab-pane" aria-selected="false">SUPERHERO</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="pixel" id="pixel-tab" data-bs-toggle="tab" data-bs-target="#pixel-tab-pane" type="button"
+                            role="tab" aria-controls="pixel-tab-pane" aria-selected="false">PIXEL</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="m-auto col-xl-9 pb-5">
+        <div class="container w-100">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="mmorpg-tab-pane" role="tabpanel" aria-labelledby="mmorpg-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="shooter-tab-pane" role="tabpanel" aria-labelledby="shooter-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+                <div class="tab-pane fade"  id="sailing-tab-pane" role="tabpanel" aria-labelledby="sailing-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="permadeath-tab-pane" role="tabpanel" aria-labelledby="permadeath-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="superhero-tab-pane" role="tabpanel" aria-labelledby="superhero-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pixel-tab-pane" role="tabpanel" aria-labelledby="pixel-tab" tabindex="0">
+                    <div class="row g-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="spinner-container d-flex justify-content-center align-items-center">
+        <div class="outer-spinner d-flex justify-content-center align-items-center">
+            <div class="inner-spinner"></div>
+        </div>
+    </section>
+    <div class="game-details m-auto py-4 d-block d-none">
+        <div class="container col-md-9">
+            
+        </div>
+    </div>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/index.js"></script>
+</body>
+</html>
