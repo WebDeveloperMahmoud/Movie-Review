@@ -1,7 +1,7 @@
 class GameService {
   async getGamesByCategory(category) {
     const response = await fetch(
-      `https://api.allorigins.win/raw?url=https://www.freetogame.com/api/games?category=${category}`
+      `https://corsproxy.io/?https://www.freetogame.com/api/games?category=${category}`
     );
     if (!response.ok) throw new Error("Games API Error");
     return await response.json();
@@ -9,7 +9,7 @@ class GameService {
 
   async getGameDetails(gameId) {
     const response = await fetch(
-      `https://api.allorigins.win/raw?url=https://www.freetogame.com/api/game?id=${gameId}`
+      `https://corsproxy.io/?https://www.freetogame.com/api/game?id=${gameId}`
     );
     if (!response.ok) throw new Error("Game Details API Error");
     return await response.json();
