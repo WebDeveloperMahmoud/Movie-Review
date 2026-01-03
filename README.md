@@ -24,3 +24,4 @@
 #📡 APIs Used
 1️⃣ Get Games by Category: https://www.freetogame.com/api/games?category=mmorpg
 2️⃣ Get Full Game Details: https://www.freetogame.com/api/game?id=GAME_ID
+# Live Demo: https://webdevelopermahmoud.github.io/Movie-Review/ 
